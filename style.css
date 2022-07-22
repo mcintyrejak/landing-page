@@ -1,8 +1,14 @@
-body {}
+body {
+    margin: 0;
+}
 
-nav {}
+nav {
+    background-color: #3D405B;
+}
 
-header {}
+header {
+    background-color: #3D405B;
+}
 
 main {}
 
@@ -10,8 +16,16 @@ section {}
 
 .info {}
 
-.quote {}
+.quote {
+    background-color: #F4F1DE;
+}
 
-.action {}
+.action-alert {
+    background-color: #E07A5F;
+}
 
-footer {}
+.action-left {}
+
+footer {
+    background-color: #3D405B;
+}
