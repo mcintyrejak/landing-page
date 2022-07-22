@@ -7,12 +7,13 @@ nav,
 header {
     background-color: #3D405B;
     color: #F4F1DE;
+    padding: 10px 125px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px;
+
 }
 
 .logo {
@@ -21,7 +22,7 @@ nav {
 }
 
 .header-links {
-    font-size: 10pt;
+    font-size: 9pt;
 }
 
 ul {
@@ -39,8 +40,41 @@ a {
     text-decoration: none;
 }
 
+header {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.header-left {
+    color: #F4F1DE;
+    font-size: 9pt;
+}
+
+h1 {
+    font-size: 22pt;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.header-button {
+    background-color: #F2CC8F;
+    color: #3D405B;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    margin: 10px 0;
+
+}
+
 .header-img {
-    width: 350px;
+    width: 325px;
     height: 150px;
     background-color: #ccc;
 }
