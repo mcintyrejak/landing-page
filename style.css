@@ -171,4 +171,8 @@ h3 {
 
 footer {
     background-color: #3D405B;
+    padding: 25px;
+    text-align: center;
+    font-size: 9pt;
+    color: #F4F1DE;
 }
