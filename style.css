@@ -120,6 +120,18 @@ item {
 
 .quote {
     background-color: #F4F1DE;
+    padding: 100px 200px;
+    font-size: 18pt;
+    font-style: italic;
+    font-weight: light;
+}
+
+.attribution {
+    display: block;
+    font-size: 12pt;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
 }
 
 .action-alert {
