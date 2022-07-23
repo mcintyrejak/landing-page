@@ -134,11 +134,40 @@ item {
     text-align: right;
 }
 
-.action-alert {
-    background-color: #E07A5F;
+.action {
+    margin: 50px 0;
 }
 
-.action-left {}
+.action-alert {
+    background-color: #E07A5F;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px 10px;
+    margin: 10px 125px;
+    border-radius: 10px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.action-left {
+    color: #F4F1DE;
+}
+
+.action-left span {
+    font-size: 9pt;
+}
+
+.action-button {
+    background-color: #E07A5F;
+    color: #F4F1DE;
+    border: 1px solid #F4F1DE;
+    padding: 5px 20px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px 0;
+}
 
 footer {
     background-color: #3D405B;
